@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrim"
+    android:theme="@style/SplashTheme"
+    android:orientation="vertical"
+    tools:context="com.example.imene.devoir_tp_apps.SplashScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/icone"
+        app:srcCompat="@drawable/large"
+        android:layout_marginTop="150dp"
+        tools:ignore="MissingConstraints"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:gravity="center"
+        android:shadowColor="#000"
+        android:shadowDx="1"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="@string/raconte_moi_une_histoire"
+        android:textColor="@color/colorMint"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic|bold"
+        tools:ignore="MissingConstraints" />
+
+</android.widget.LinearLayout>

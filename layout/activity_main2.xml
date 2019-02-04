@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/his2"
+    android:id="@+id/cosHis"
+    tools:context="com.example.imene.devoir_tp_apps.Main2Activity">
+
+
+    <Button
+        android:id="@+id/imageButton1"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/precedent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/imageButton2"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="480dp"
+        android:background="@drawable/suivant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="469dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/neutre"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="62dp"
+        android:background="@color/colorPrimC"
+        tools:layout_editor_absoluteY="76dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/showtext"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>

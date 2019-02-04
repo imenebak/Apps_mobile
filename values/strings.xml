@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Contes</string>
+    <string name="raconte_moi_une_histoire">Raconte Moi Une Histoire</string>
+    <string name="icone">Icone</string>
+    <string name="title">Titre:</string>
+    <string name="auth">Auteur:</string>
+    <string name="nbpage">Nombre de page:</string>
+    <string name="clic">Cliquer</string>
+    <string name="todo">TODO</string>
+    <string name="partie13">Elle en a assez donc elle veut manger Gretel. La fillette réussit à mettre la sorcière dans le four. Hansel et Gretel reviennent ainsi chez eux et vivent heureux avec leur père</string>
+    <string name="partie12">Ils arrivent devant une maison faite en pain dépices et en mangent. Ils découvrent à ce moment une sorcière qui attrape Hansel pour le mettre dans une étable.La sorcière lui donne à manger pour lengraisser. Au bout de quatre semaines, Hansel lui tend un os de poulet pour lui faire croire que cest son doigt et quil ne grossit pas</string>
+    <string name="partie11">Hansel et Gretel vivent dans une famille pauvre. Un jour, leurs parents sont résolus à les abandonner dans la forêt mais ils retrouvent leur chemin. Alors, ces derniers les abandonnent une deuxième fois et les enfants se perdent.</string>
+
+    <string name="partie21">Blanche neige est une princesse dune très grande beauté, ce qui rend jalouse sa belle mère. Elle veut la tuer et donc demande au garde de sen charge Mais il ne peut le faire.</string>
+    <string name="partie22"> Blanche neige erre seule dans la forêt et arrive dans la maison des sept nains. La belle mère finit par lempoisonner avec une pomme mais un prince passant dans la forêt la délivra par chance de ce sortilège. Ils vécurent heureux ensemble</string>
+</resources>
